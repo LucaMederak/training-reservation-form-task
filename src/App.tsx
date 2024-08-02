@@ -314,14 +314,16 @@ const App = () => {
                     </>
                   ) : (
                     <>
-                      <p className="font-normal text-base text-textMuted">
+                      <p className="font-normal text-base ">
                         <span
                           className="underline cursor-pointer text-primary-600"
                           onClick={open}
                         >
                           Upload a file
                         </span>{" "}
-                        or drag and drop here
+                        <span className="text-textMuted hidden sm:inline">
+                          or drag and drop here
+                        </span>
                       </p>
                     </>
                   )}
