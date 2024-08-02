@@ -1,0 +1,3 @@
+.tooltip-icon {
+  @apply z-[1] relative flex justify-center items-center border-2 border-primary-200 text-xs text-primary-600 font-medium  h-[25px] w-[37px] rounded before:content-[''] before:-z-[1] before:absolute before:left-1/2 before:-translate-x-1/2 before:rotate-45 before:top-[-5.5px] before:w-[8px] before:h-[8px] before:border-primary-200 bg-white before:bg-white before:border-t-2 before:border-l-2;
+}

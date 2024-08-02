@@ -1,0 +1,23 @@
+.react-datepicker__header {
+  @apply !w-full !rounded-none !bg-transparent !border-none !p-0;
+}
+
+.react-datepicker__month-container {
+  @apply p-0;
+}
+
+.react-datepicker__week {
+  @apply flex items-center !justify-between;
+}
+
+.react-datepicker__day-names {
+  @apply mt-[22px] flex items-center !justify-between;
+}
+
+.react-datepicker__day--today {
+  @apply !bg-transparent;
+}
+
+.react-datepicker__day--outside-month {
+  @apply !opacity-0 !pointer-events-none;
+}
